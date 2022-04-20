@@ -1,0 +1,109 @@
+
+
+body{
+
+    background-color: #FEFCF9;
+    color: #C1272D;
+    font-family: 'Carter One', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divtodoelcontenido { margin: 0px auto !important;
+                     width: 90% !important; }
+
+.logoheader {text-align: center;
+              width: 150px;
+            margin: auto;
+            padding: 10px}
+
+.logoheader :hover { opacity: 50%; }            
+
+.logoalbum { width: 100%; }
+
+.contenedorimagenbanner { width: 55%;
+                          margin: auto;}
+.fotobanner { width: 100%; }
+
+.contenedortitulollegorosalia { 
+
+margin: 0px auto;
+text-align: center;
+font-size: 50px;
+
+}
+
+.llegorosalia { margin: 0px auto; 
+                margin-top: 35px;}
+.lugaryfecha { font-size: 35px; }
+
+
+
+.Participaparaconocerla { margin: 50px;
+                        margin-bottom: 0px;
+                          padding: 0px; 
+                        font-size: 30px;}
+                          
+
+
+.todoelformulario {  }
+.contenedorformulario { 
+
+border:  #C1272D;
+border-style: solid;
+border-width: 6px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+margin-top: 0px !important;
+margin: 20px;
+width: 40%;
+float: left;
+}
+
+.formulario {
+
+margin: 10px;
+
+}
+
+.rellenoformulario { color: #FEFCF9; background-color: #C1272D; border-color: #C1272D; border-radius: 10px; width: 80%;}
+
+textarea { width: 97% !important; }
+::placeholder { color: #FEFCF9;}
+
+
+.botonformulario { color: #FEFCF9; background-color: #C1272D; font-size: 20px; text-align: center; border-color: #C1272D; border-radius: 10px; }
+.botonformulario:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24), 0 17px 50px 0 rgba(255, 4, 4, 0.19);
+  color: #C1272D; background-color: #FEFCF9;
+   border-radius: 5px;}
+
+
+
+
+.titulosformulario { 
+
+    padding: 0px;
+    margin: 0px;
+ }
+
+
+
+ .contedordevideo { margin: 50px; 
+                    text-align: center;}
+
+
+
+.sliderproductos {  width: 30%; float: right;}
+.slider { width: 250px; }
+.fotovinilo{width: 100%;}
+.ganatemerch { font-size: auto; }
+
+.mySlides { width: 100%; }
+
+.video { margin-left: 100px;
+
+}
+
+.titulovideo { margin-left: 100px;
+margin-top: 120px; clear: both; }
