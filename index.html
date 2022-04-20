@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&G - Rosalía</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="lightbox.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+</head>
+ <body>
+    
+    <div class="divtodoelcontenido" >
+
+
+    <header>
+<div class="logoheader">
+
+
+
+    <a href="index.html"> <img class="logoalbum" src="imagenes/LOGO-ALBUM.png" alt=""> </a>
+
+ </div>
+
+    </header>
+
+    <div class="contenedorimagenbanner">
+      <img class="fotobanner" src="imagenes/rosaliahorizontal.jpeg" alt="">
+    </div>
+
+
+    <div class="contenedortitulollegorosalia">
+
+        <h1 class="llegorosalia"> Rosalía llegó a ARG </h1>
+        <h2 class="lugaryfecha" > 10/10/2022 - Ciudad de Buenos Aires </h2>
+    </div>
+
+
+
+<section> 
+
+<div class="todoelformulario"> 
+
+  <h1 class= "Participaparaconocerla"> Participá para conocerla! </h1>
+	
+	
+    <div class="contenedorformulario"> 
+	
+	<div class="formulario"> 
+	
+	<form method="post" action="gracias.html">
+		
+		<p class="titulosformulario">
+			
+			Nombre: <input type="text" name="nombre" placeholder="Nombre completo" required class="rellenoformulario">
+						  
+			
+		</p>
+		
+		Email: 	<input type="email" name="mail" placeholder="Mail de participación" required class="rellenoformulario">
+			
+		
+		
+		
+		<p class="titulosformulario">
+			
+            Edad:
+            <select name="pais" required="required" class="rellenoformulario">
+                <option value="-">Seleccione edad</option>
+                <option value="1">14 - 18</option>
+                <option value="2">19 - 27</option>
+                <option value="3">28 - 37</option>
+                <option value="4">50< </option>
+               
+            </select>
+    </p >
+      <p class="titulosformulario">¿Porque deberías conocerla?: <br>  <textarea name="mensaje" rows="5" maxlength="250" placeholder="Contános tu historia..." class="rellenoformulario" ></textarea>
+    </p>
+    <p>
+          <a href="gracias.html"> <input type="submit" name="botonenviar" value="Enviar" class="botonformulario"> </a>
+        </p>
+    
+		
+
+            
+
+        </div>
+    </div>
+    </section>  
+
+
+    <div">
+        
+    </div>
+
+
+    <div class="sliderproductos">
+
+        <p class="ganatemerch" >Ganate MERCH exclusiva:</p>
+
+        <div class="slider" >
+              <img  class="mySlides" class="fotovinilo" src="imagenes/slider/rosalia vinilo.png" alt="">
+              <img class="mySlides" src="imagenes/slider/rosalia cd.png" alt="">
+              <img class="mySlides" src="imagenes/slider/buzo.png" alt="">
+              <img class="mySlides" src="imagenes/slider/buzo blanco.png" alt="">
+        </div>
+
+    </div>
+
+
+		
+    <div class="contenedordevideo">
+<h3 class="titulovideo"> Último video! </h3>
+<iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/MkR7NC-HNCA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
+
+
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) 
+    {showDivs(slideIndex += n);}
+    
+    function showDivs(n) 
+    {var i;
+    
+     var x = document.getElementsByClassName("mySlides");
+     if (n > x.length) {slideIndex = 1}
+     if (n < 1) {slideIndex = x.length} ;
+     for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";}
+     x[slideIndex-1].style.display = "block";
+    }
+    
+    
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2500); 
+ 
+    }	
+        
+</script>
+
+
+</body>
+</html>
